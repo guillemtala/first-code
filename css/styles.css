@@ -31,12 +31,12 @@ body {
 #section-2 {
     background-color: #509da0;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
 
 #section-3 {
-    padding: 0 7%;
+    /* padding: 0 7%; */
 }
 
 #section-4 {
@@ -46,13 +46,18 @@ body {
 .column-2 {
     width: 50%;
     float: left;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .column-4 {
     width: 25%;
     float: left;
-    padding: 40px;
+    /* padding: 40px; */
+}
+
+.column-1 h3 {
+    text-align: center;
+    color: black;
 }
 
 
@@ -84,6 +89,36 @@ body {
     border: 0;
 }
 
+#section-5 {
+    background-color: black;
+    text-align: center;
+}
+
+.gallery {
+    width: 33.33%;
+    float: left;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+/* Reglas auxiliares */
+
+.relleno-lateral {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.relleno-columnas {
+    padding: 20px;
+}
+
+.relleno-imagenes {
+    padding: 50px;
+}
+
 @media screen and (max-width: 600px) {
     /*Aqui dentro van las reglas */
     #header {
@@ -102,10 +137,11 @@ body {
     .column-2 {
         width: 100%;
     }
-    #section-2,
-    #section-3,
-    .column-2 {
-        padding-left: 5px;
-        padding-right: 5px;
+    .relleno-lateral {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .column-4 {
+        width: 50%;
     }
 }
