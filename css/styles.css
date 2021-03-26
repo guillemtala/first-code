@@ -112,7 +112,7 @@ body {
 }
 
 .relleno-columnas {
-    padding: 20px;
+    padding-right: 20px;
 }
 
 .relleno-imagenes {
@@ -142,6 +142,9 @@ body {
         padding-right: 2%;
     }
     .column-4 {
+        width: 50%;
+    }
+    .gallery {
         width: 50%;
     }
 }
